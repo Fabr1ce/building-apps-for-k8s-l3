@@ -1,7 +1,7 @@
 # building-apps-for-k8s-l3
 This repo creates a docker image for a go app to be used by k8s, it builds and tests the corresponding container.
 
-## The first step here is to build the app locally to test it by doing the following:
+### The first step here is to build the app locally to test it by doing the following:
 
 1. On the CLI, build the app by running:
 
@@ -14,7 +14,7 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 2. In the browser, go to `localhost:8000`, and the message on line 20 of the main.go file should display: `v0.2 Building Apps For k8s app says Hi`.
 
 
-## The second step is to build the Docker image and have it ready for when k8s will use it:
+### The second step is to build the Docker image and have it ready for when k8s will use it:
 
 1. Build the image using the CLI, replace *name-of-image* with a chosen name:
 
