@@ -7,7 +7,7 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 
 	go build -0 sever .
 
-   then to run the built app:
+then to run the built app:
 
 	./server  
 
@@ -24,17 +24,17 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 
 	docker tag <image-id> <name-for-image>:0.1
 
-   then push image:
+then push image:
 
 	docker login   # need to have a dockerhub account
 
 	docker push <name-for-image>:0.1
 
-   the new image can be tested by running its container and going to localhost:8000 to check if the log message in main.go is displayed:
+the new image can be tested by running its container and going to localhost:8000 to check if the log message in main.go is displayed:
 
 	docker run -d --rm -p 127.0.0.1:8000:8000/tcp f<name-for-image>:0.1
 
-   to stop the container/app:
+to stop the container/app:
 
 	docker stop <container-id>
 
