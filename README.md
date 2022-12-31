@@ -5,7 +5,7 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 
 1. On the CLI, build the app by running:
 
-	go build -0 sever .
+		go build -0 sever .
 
 then to run the built app:
 
