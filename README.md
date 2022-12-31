@@ -5,11 +5,11 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 
 1. On the CLI, build the app by running:
 
-	go build -0 sever .
+	`go build -0 sever .`
 
 then to run the built app:
 
-	./server  
+	`./server`
 
 2. In the browser, go to localhost:8000, and the message on line 20 of the main.go file should display: v0.2 Building Apps For k8s app says Hi.
 
