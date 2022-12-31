@@ -11,7 +11,7 @@ then to run the built app:
 
 	./server  
 
-2 - In the browser, go to localhost:8000,and the message on line 20 of the main.go file should display: v0.2 Building Apps For k8s app says Hi.
+2 - In the browser, go to localhost:8000, and the message on line 20 of the main.go file should display: v0.2 Building Apps For k8s app says Hi.
 
 
 The second step is to build the Docker image and have it ready for when k8s will use it:
