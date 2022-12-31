@@ -40,3 +40,4 @@ This repo creates a docker image for a go app to be used by k8s, it builds and t
 
 That's it! The go app image is created, tested and pushed to a registry where k8s can fetch it later to build pods.
 
+This [repo](https://github.com/Fabr1ce/building-apps-for-k8s-l4-using-Kind) is an example of how this image can be used to build a Kubernetes pod.
